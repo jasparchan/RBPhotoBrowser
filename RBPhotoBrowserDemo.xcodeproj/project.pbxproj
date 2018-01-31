@@ -17,6 +17,7 @@
 		001265B82021920300C1516B /* RBPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 001265B72021920300C1516B /* RBPhotoView.m */; };
 		001265BC2021961700C1516B /* RBPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 001265BB2021961700C1516B /* RBPhotoBrowser.m */; };
 		001265BF202197FA00C1516B /* RBSDImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 001265BE202197FA00C1516B /* RBSDImageManager.m */; };
+		001265C12021AA5E00C1516B /* RBPhotoBrowser.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 001265C02021AA5E00C1516B /* RBPhotoBrowser.podspec */; };
 		9AA0532298808EEBD10BFA91 /* Pods_RBPhotoBrowserDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3057816103A80D7E58D78E /* Pods_RBPhotoBrowserDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		001265BB2021961700C1516B /* RBPhotoBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBPhotoBrowser.m; sourceTree = "<group>"; };
 		001265BD202197FA00C1516B /* RBSDImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBSDImageManager.h; sourceTree = "<group>"; };
 		001265BE202197FA00C1516B /* RBSDImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBSDImageManager.m; sourceTree = "<group>"; };
+		001265C02021AA5E00C1516B /* RBPhotoBrowser.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RBPhotoBrowser.podspec; sourceTree = SOURCE_ROOT; };
 		19A00895F467252796662FB6 /* Pods-RBPhotoBrowserDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBPhotoBrowserDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RBPhotoBrowserDemo/Pods-RBPhotoBrowserDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		70C2CDBB8542F0DBEDA93675 /* Pods-RBPhotoBrowserDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBPhotoBrowserDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RBPhotoBrowserDemo/Pods-RBPhotoBrowserDemo.release.xcconfig"; sourceTree = "<group>"; };
 		EC3057816103A80D7E58D78E /* Pods_RBPhotoBrowserDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RBPhotoBrowserDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +89,7 @@
 				001265A220216D1D00C1516B /* Assets.xcassets */,
 				001265A420216D1D00C1516B /* LaunchScreen.storyboard */,
 				001265A720216D1D00C1516B /* Info.plist */,
+				001265C02021AA5E00C1516B /* RBPhotoBrowser.podspec */,
 				001265A820216D1D00C1516B /* main.m */,
 			);
 			path = RBPhotoBrowserDemo;
@@ -187,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				001265C12021AA5E00C1516B /* RBPhotoBrowser.podspec in Resources */,
 				001265A620216D1D00C1516B /* LaunchScreen.storyboard in Resources */,
 				001265A320216D1D00C1516B /* Assets.xcassets in Resources */,
 				001265A120216D1D00C1516B /* Main.storyboard in Resources */,
@@ -398,6 +402,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U9CW58M76V;
 				INFOPLIST_FILE = RBPhotoBrowserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RobinChan.RBPhotoBrowserDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,6 +418,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U9CW58M76V;
 				INFOPLIST_FILE = RBPhotoBrowserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RobinChan.RBPhotoBrowserDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
